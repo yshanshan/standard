@@ -1,6 +1,6 @@
 ## 文件规范
 
-### styles
+#### styles
 - _global.scss （编写全局基本共用样式）
 - _variable.scss （变量 & mixin）
 - _master.scss （主界面样式）
@@ -12,14 +12,12 @@
 - _mend.scss （补丁）
 - _print.scss （打印样式）
 
-
 ## CSS书写顺序
 1.	位置属性(position, top, right, z-index, display, float等)
 2.	大小(width, height, padding, margin)
 3.	文字系列(font, line-height, letter-spacing, color- text-align等)
 4.	背景(background, border等)
 5.	其他(animation, transition等)
-
 
 ## CSS书写规范
 1.	两空格缩进
@@ -42,7 +40,7 @@
 18.	注释：确保代码能够自描述、注释良好且易于理解
 
 
-## CSS的命名规范
+## CSS命名规范
 1.	命名需尽量简短，可适度但不可过度简写，需要意义明确
 2.	class名称中只能出现小写字母，连接以中划线 “-”
 3.	不能用“_”命名class
@@ -74,4 +72,102 @@
 18.	方向类：up, down, left, right
 19.	页面类：login, register, setting, profile,  dashboard
 
-### 常用布局参考：
+#### 常用布局参考：
+css命名 | 说明
+------------ | -------------
+header | 头部 
+footer | 底部 
+wrapper | 页面宽度控制容器 
+wrap/container | 容器 
+content | 内容 
+column/module | 栏目 
+main | 主体 
+aside | 边栏 
+branding/logo | 品牌化/logo 
+ad/advertisment/banner | 广告/宣传图片 
+nav | 导航 
+mainnav | 主导航 
+subnav | 二级导航 
+topnav | 顶部导航 
+leftsidebar | 左侧导航
+rightsidebar | 右侧导航 
+menu | 菜单 
+submenu | 子菜单 
+breadcrumb | 面包屑 
+back | 返回 
+
+#### 常用内容/功能命名
+css命名 | 说明
+------------ | -------------
+login/sign in | 登录 
+register/sign up | 注册 
+recoverpsw | 找回密码 
+confirmmail | 确认邮件 
+profile | 个人中心 
+setting | 设置 
+about | 关于 
+friendlink/link | 友情链接 
+copyright | 版权 
+contract/joinus | 联系我们/加入我们 
+news | 新闻 
+hot | 热点 
+search | 搜索 
+list | 列表 
+item | 项目 
+title/caption | 标题 
+guide | 指南 
+service | 服务 
+question/help | 常见问题 
+vote | 投票 
+product | 产品 
+shop | 商店 
+download | 下载 
+partner | 合作伙伴 
+account | 账户 
+avatar | 头像 
+chart | 图表 
+timeline | 时间轴 
+community/bbs | 社区 
+detail | 详情 
+description | 细节 
+featrue | 专题 
+information | 信息 
+meta | 作者、更新信息等，一般位于标题下 
+more | 更多 
+promotion | 促销 
+subscription | 订阅 
+audio/video | 音频/视频 
+error404 | 404页面 
+members | 会员 
+invoice | 声明 
+pricing | 价格 
+
+#### 常见组件命名
+css命名 | 说明
+------------ | -------------
+button | 按钮 
+icon | 图标 
+close | 关闭 
+comment | 评论 
+form | 表格 
+gallery | 画廊 
+msg/message | 消息 
+pagination | 翻页 
+popup | 弹窗 
+preview | 预览 
+primary | 主要的 
+progress | 进度条 
+slide | 幻灯片、图片切换 
+tab | 标签页 
+tag | 标签 
+tips | 小提示 
+calendar | 日历 
+widgets | 面板 
+rangeslider | 范围选择器 
+ratings | 评分 
+animation | 动画/动作 
+email | 邮件 
+maps | 地图 
+badges | 标注 
+cards | 卡片 
+
