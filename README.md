@@ -12,12 +12,14 @@
 - _mend.scss （补丁）
 - _print.scss （打印样式）
 
+
 ## CSS书写顺序
 1.	位置属性(position, top, right, z-index, display, float等)
 2.	大小(width, height, padding, margin)
 3.	文字系列(font, line-height, letter-spacing, color- text-align等)
 4.	背景(background, border等)
 5.	其他(animation, transition等)
+
 
 ## CSS书写规范
 1.	两空格缩进
@@ -72,7 +74,9 @@
 18.	方向类：up, down, left, right
 19.	页面类：login, register, setting, profile,  dashboard
 
+
 #### 常用布局参考：
+
 css命名 | 说明
 ------------ | -------------
 header | 头部 
@@ -96,7 +100,9 @@ submenu | 子菜单
 breadcrumb | 面包屑 
 back | 返回 
 
+
 #### 常用内容/功能命名
+
 css命名 | 说明
 ------------ | -------------
 login/sign in | 登录 
@@ -143,6 +149,7 @@ invoice | 声明
 pricing | 价格 
 
 #### 常见组件命名
+
 css命名 | 说明
 ------------ | -------------
 button | 按钮 
