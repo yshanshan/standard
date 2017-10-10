@@ -1,3 +1,9 @@
+CSS STANDARD
+==============
+
+ 
+---------
+
 ## 文件规范
 
 #### styles
@@ -12,7 +18,7 @@
 - _mend.scss （补丁）
 - _print.scss （打印样式）
 
-
+\<br>
 ## CSS书写顺序
 1.	位置属性(position, top, right, z-index, display, float等)
 2.	大小(width, height, padding, margin)
@@ -21,6 +27,7 @@
 5.	其他(animation, transition等)
 
 
+\<br>
 ## CSS书写规范
 1.	两空格缩进
 2.	段落之间留两空行，块之间留一空行
@@ -41,7 +48,7 @@
 17.	媒体查询尽可能放在相关规则附近，以免被遗忘
 18.	注释：确保代码能够自描述、注释良好且易于理解
 
-
+\<br>
 ## CSS命名规范
 1.	命名需尽量简短，可适度但不可过度简写，需要意义明确
 2.	class名称中只能出现小写字母，连接以中划线 “-”
@@ -52,7 +59,7 @@
 7.	使用“.icon-”为icon命名前缀
 8.	同一个标签不要超过四个class组合使用
 
-
+\<br>
 ## css命名参考表
 1.	布局类：header, footer, container, main,  content, aside, page, section
 2.	包裹类：wrapper, wrap, inner
@@ -74,7 +81,7 @@
 18.	方向类：up, down, left, right
 19.	页面类：login, register, setting, profile,  dashboard
 
-
+\<br>
 #### 常用布局参考：
 
 css命名 | 说明
@@ -100,7 +107,7 @@ submenu | 子菜单
 breadcrumb | 面包屑 
 back | 返回 
 
-
+\<br>
 #### 常用内容/功能命名
 
 css命名 | 说明
@@ -148,33 +155,34 @@ members | 会员
 invoice | 声明 
 pricing | 价格 
 
+\<br>
 #### 常见组件命名
 
-css命名 | 说明
------------- | -------------
-button | 按钮 
-icon | 图标 
-close | 关闭 
-comment | 评论 
-form | 表格 
-gallery | 画廊 
-msg/message | 消息 
-pagination | 翻页 
-popup | 弹窗 
-preview | 预览 
-primary | 主要的 
-progress | 进度条 
-slide | 幻灯片、图片切换 
-tab | 标签页 
-tag | 标签 
-tips | 小提示 
-calendar | 日历 
-widgets | 面板 
-rangeslider | 范围选择器 
-ratings | 评分 
-animation | 动画/动作 
-email | 邮件 
-maps | 地图 
-badges | 标注 
-cards | 卡片 
+|css命名|说明|
+|------------ | -------------
+|button | 按钮 
+|icon | 图标 
+|close | 关闭 
+|comment | 评论 
+|form | 表格 
+|gallery | 画廊 
+|msg/message | 消息 
+|pagination | 翻页 
+|popup | 弹窗 
+|preview | 预览 
+|primary | 主要的 
+|progress | 进度条 
+|slide | 幻灯片、图片切换 
+|tab | 标签页 
+|tag | 标签 
+|tips | 小提示 
+|calendar | 日历 
+|widgets | 面板 
+|rangeslider | 范围选择器 
+|ratings | 评分 
+|animation | 动画/动作 
+|email | 邮件 
+|maps | 地图 
+|badges | 标注 
+|cards | 卡片 
 
